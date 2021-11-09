@@ -1,0 +1,73 @@
+import 'package:acumen_task/src/content/constants/strings.dart';
+import 'package:acumen_task/src/content/utilities/app_images.dart';
+
+//I created a mock list of available dog walkers to make it real even though we're not using an API
+
+const List<Map<String, dynamic>> mockJson = [
+  {
+    "name": AppStrings.masonYork,
+    "distance": 10,
+    "star_rating": 4.2,
+    "charge_rate": 6,
+    "no_of_walks": 500,
+    "age": 20,
+    "experience": '3 years',
+    "about": 'He is a nice and gentle man',
+    "image_string": AppImages.dogImage1,
+  },
+  {
+    "name": AppStrings.markGreene,
+    "distance": 7,
+    "star_rating": 4.6,
+    "charge_rate": 19,
+    "no_of_walks": 400,
+    "age": 25,
+    "experience": '7 years',
+    "about": 'He is a nice man',
+    "image_string": AppImages.dogImage2,
+  },
+  {
+    "name": AppStrings.trinaKain,
+    "distance": 8,
+    "star_rating": 3.9,
+    "charge_rate": 7,
+    "no_of_walks": 200,
+    "age": 20,
+    "experience": '6 years',
+    "about": 'He is a nice man',
+    "image_string": AppImages.dogImage3,
+  },
+  {
+    "name": AppStrings.willKnowes,
+    "distance": 7,
+    "star_rating": 4.3,
+    "charge_rate": 3,
+    "no_of_walks": 600,
+    "age": 24,
+    "experience": '3 years',
+    "about": 'He is a nice man and very lovely',
+    "image_string": AppImages.dogImage4,
+  },
+  {
+    "name": AppStrings.ryanBond,
+    "distance": 12,
+    "star_rating": 4.7,
+    "charge_rate": 10,
+    "no_of_walks": 1200,
+    "age": 30,
+    "experience": '5 years',
+    "about": 'He is a nice man',
+    "image_string": AppImages.dogImage5,
+  },
+  {
+    "name": AppStrings.sirenaPaul,
+    "distance": 7,
+    "star_rating": 4.8,
+    "charge_rate": 12,
+    "no_of_walks": 200,
+    "age": 29,
+    "experience": '3 years',
+    "about": 'A lover of dogs',
+    "image_string": AppImages.dogImage6,
+  },
+];
